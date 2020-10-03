@@ -1,0 +1,45 @@
+.sidebarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100vh;
+  width: 13vw;
+
+  background-color: #003B72;
+  color: #fff;
+  font-size: .8em;
+}
+
+.sidebarLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 7vh;
+  margin: 0 .5vw 0 1.5vw;
+}
+
+.sidebarLink {
+  display: block;
+
+  line-height: 6vh;
+  padding: 1vh .5vw 1vh 1.5vw;
+
+  color: #fff;
+  text-decoration: none;
+  transition: .1s linear;
+}
+
+.sidebarLogoImg {
+  margin: 2vh .5vw 2vh 1.5vw;
+}
+
+.activeLink {
+  background-color: #fff;
+  color: #7761FF;
+}

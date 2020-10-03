@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?uxha7y');
+  src:  url('fonts/icomoon.eot?uxha7y#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?uxha7y') format('truetype'),
+    url('fonts/icomoon.woff?uxha7y') format('woff'),
+    url('fonts/icomoon.svg?uxha7y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon-test:before {
+  content: "\e900";
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon-arrow:before {
+  content: "\e901";
 }
-
-.App-link {
-  color: #61dafb;
+.icon-Help:before {
+  content: "\e902";
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-History:before {
+  content: "\e903";
+}
+.icon-Analyses:before {
+  content: "\e904";
+}
+.icon-PacientInfo:before {
+  content: "\e905";
+}
+.icon-AddInfo:before {
+  content: "\e906";
+}
+.icon-eye:before {
+  content: "\e907";
+}
+.icon-notifications:before {
+  content: "\e908";
+}
+.icon-search:before {
+  content: "\e909";
+}
+.icon-profile:before {
+  content: "\e90a";
+}
+.icon-doctors:before {
+  content: "\e90b";
+}
+.icon-messages:before {
+  content: "\e90c";
+}
+.icon-knowledge:before {
+  content: "\e90d";
 }
