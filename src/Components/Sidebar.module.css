@@ -35,6 +35,11 @@
   transition: .1s linear;
 }
 
+.linkFont {
+  font-family: 'Rubik', sans-serif;
+  margin: 0 0 0 .5vw;
+}
+
 .sidebarLogoImg {
   margin: 2vh .5vw 2vh 1.5vw;
 }

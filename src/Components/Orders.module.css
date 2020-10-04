@@ -1,0 +1,13 @@
+.ordersContainer {
+  padding: 3vh 1.5vw;
+}
+
+.ordersHeading {
+  margin: 3vh 1.5vw;
+}
+
+.orders {
+  display: grid;
+  grid-template-columns: .4fr .4fr 0.2fr;
+  gap: 1.5vw;
+}

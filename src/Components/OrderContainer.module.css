@@ -1,0 +1,21 @@
+.orderContainer {
+  box-shadow: 0px 0px 5px 0px #EBE7FF;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 3vh 1.5vw;
+  margin: 3vh 0;
+}
+
+.orderDate {
+  text-transform: capitalize;
+}
+
+.orderAddress {
+  font-size: .8em;
+  font-weight: 300;
+  width: 90%;
+
+  margin: 1vh 0;
+}

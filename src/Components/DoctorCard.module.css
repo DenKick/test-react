@@ -1,0 +1,27 @@
+.doctorCardContainer {
+  display: grid;
+  gap: 1vw;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+}
+
+.doctorPhoto {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.doctorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoName {
+  font-size: .8em;
+  margin: 0 0 0.5vh 0;
+}
+
+.infoProf {
+  color: #EBE7FF;
+  font-size: .7em;
+}
