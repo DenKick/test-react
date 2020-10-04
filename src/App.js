@@ -8,12 +8,13 @@ import Messages from './Pages/Messages';
 import Testing from './Pages/Testing';
 import Knowledge from './Pages/Knowledge';
 import Help from './Pages/Help';
+import ProfileOrders from './Pages/ProfileOrders';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/profile">
+        <Route exact path="/profile">
           <Profile />
         </Route>
         <Route path="/doctors">
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path="/help">
           <Help />
+        </Route>
+        <Route path="/profile/orders">
+            <ProfileOrders />
         </Route>
       </Switch>
     </Router>

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './OrderContainer.module.css';
 
 import DoctorCard from './DoctorCard';
+import Button from './Button';
 
 import doctors from './doctorsAPI';
 
@@ -23,6 +24,9 @@ export default function OrderContainer({ id }) {
       <span className={styles.orderDate}>{dateFinalString}</span>
       <span className={styles.orderAddress}>{doctors[id].place}</span>
       <DoctorCard doctor={doctors[id]}/>
+      <div className={styles.button}>
+        <Button buttonName="Отменить" />
+      </div>
     </div>
   )
 }

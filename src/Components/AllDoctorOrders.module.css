@@ -1,0 +1,23 @@
+.allDoctorOrdersContainer {
+  padding: 0 1.5vw 0 0.5vw;
+  height: 83vh;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: #EBE7FF;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #003B72;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #003B72;
+}

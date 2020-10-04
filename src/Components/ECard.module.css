@@ -1,0 +1,75 @@
+.eCardContainer {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-template-rows: repeat(1, 200px);
+
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px 0 #EBE7FF;
+  box-sizing: border-box;
+
+  cursor: pointer;
+  transition: .1s linear;
+}
+
+.eCardContainer:hover {
+  border: 2px solid #50CAFF;
+  box-shadow: 0 0 5px 0 #50CAFF;
+}
+
+.eCardContainer:hover > .iconContainer {
+  background-color: #50CAFF;
+  color: #fff;
+}
+
+.eCardContainer:hover > .infoHeading {
+  border-bottom: 2px solid #50CAFF;
+}
+
+.cardInfo, .iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconContainer {
+  font-size: 3em;
+  color: #EBE7FF;
+  text-align: center;
+
+  transition: .1s linear;
+}
+
+.cardInfo {
+  padding: 2vh 1.5vw;
+}
+
+.infoHeading {
+  border-bottom: 2px solid #EBE7FF;
+  display: block;
+  font-size: 1.2em;
+  padding: 0 0 1vh 0;
+  margin: 0 0 2vh 0;
+
+  transition: .1s linear;
+}
+
+.infoText {
+  font-size: .8em;
+  width: 80%;
+}
+
+ul > li{
+  margin: 0 0 1.5vh 0;
+}
+
+.eCardContainer:hover > .cardInfo > .infoHeading {
+  border-color: #50CAFF;
+}
+
+.eCardContainer:hover > .cardInfo > .infoText > ul > li {
+  color: #50CAFF;
+}
+
+.eCardContainer:hover > .cardInfo > .infoText > ul > li > span {
+  color: #000;
+}

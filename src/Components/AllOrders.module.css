@@ -1,0 +1,20 @@
+.allOrdersContainer {
+  padding: 2vh 1.5vw;
+}
+
+.customLink {
+  display: block;
+  color: #000;
+  text-decoration: none;
+
+  padding: 0 0 2vh 1.5vw;
+}
+
+.customLink:hover {
+  color: #000;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

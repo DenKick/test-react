@@ -66,3 +66,19 @@
 .icon-knowledge:before {
   content: "\e90d";
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EBE7FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #003B72;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #003B72;
+}

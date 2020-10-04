@@ -1,11 +1,12 @@
 .orderContainer {
   box-shadow: 0px 0px 5px 0px #EBE7FF;
+  position: relative;
 
   display: flex;
   flex-direction: column;
 
   padding: 3vh 1.5vw;
-  margin: 3vh 0;
+  margin: 3vh 0 0 0;
 }
 
 .orderDate {
@@ -15,7 +16,13 @@
 .orderAddress {
   font-size: .8em;
   font-weight: 300;
-  width: 90%;
+  width: 65%;
 
   margin: 1vh 0;
+}
+
+.button {
+  position: absolute;
+  right: 1.5vw;
+  bottom: 3vh;
 }

@@ -1,0 +1,15 @@
+.eCardsContainer {
+  padding: 0 1.5vw 3vh 1.5vw;
+}
+
+.eCardsHeading {
+  padding: 0 1.5vw 0 1.5vw;
+}
+
+.eCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5vw;
+
+  margin: 2vh 0 2vh 0;
+}

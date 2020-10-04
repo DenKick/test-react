@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import styles from './Sidebar.module.css';
 import logo from '../logo.png';
 
+import Button from './Button';
+
 export default function Sidebar() {
   return (
     <nav className={styles.sidebarContainer}>
@@ -23,6 +25,7 @@ export default function Sidebar() {
         <NavLink className={styles.sidebarLink} activeClassName={styles.activeLink} to="/knowledge">
           <span className="icon-knowledge"><span className={styles.linkFont}> Полезно знать</span></span>
         </NavLink>
+        <Button buttonName="Подать заявку" />
       </div>
       <div className={styles.help}>
         <NavLink className={styles.sidebarLink} activeClassName={styles.activeLink} to="/help">

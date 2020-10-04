@@ -1,0 +1,19 @@
+.button {
+  background-color: #7761FF;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+
+  font-family: 'Rubik', sans-serif;
+  line-height: 5vh;
+  padding: 0 2vw;
+  margin: 2vh auto 0 auto;
+
+  transition: .1s linear;
+}
+
+.button:hover {
+  background-color: #7710ff;
+}

@@ -9,3 +9,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  color: #50CAFF;
+  transition: .1s linear;
+}
+
+a:hover {
+  color: #003B72;
+}
