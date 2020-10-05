@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 
 import Profile from './Pages/Profile';
@@ -35,6 +35,7 @@ function App() {
         <Route path="/profile/orders">
             <ProfileOrders />
         </Route>
+        <Redirect from='/' to='/profile' />
       </Switch>
     </Router>
   );
