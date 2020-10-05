@@ -1,0 +1,28 @@
+.calendarContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2vh 0 0 1.5vw;
+
+  background-color: #EBE7FF;
+  border-radius: 5px;
+}
+
+.calendarHeading {
+  border-radius: 5px 5px 0 0;
+  text-transform: capitalize;
+
+  background-color: #7761FF;
+  color: #fff;
+
+  padding: 2vh 1.5vw;
+}
+
+.daysHeading {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.dayCell {
+  padding: 1vh 0;
+}

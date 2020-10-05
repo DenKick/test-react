@@ -6,13 +6,12 @@ import OrderContainer from './OrderContainer';
 
 export default function AllDoctorOrders() {
   let arr = Object.values(doctorsApi);
-  console.log(arr);
 
   return (
     <div className={styles.allDoctorOrdersContainer}>
       {
         arr.map((item, i) =>
-          <OrderContainer id={i} />
+          <OrderContainer key={i} id={i} />
         )
       }
     </div>
